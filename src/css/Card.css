@@ -1,0 +1,70 @@
+.card{
+    display: flex;
+    align-content:flex-start;
+    /*height: 209.25px;*/
+    flex-direction: row;
+    width: 46%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f3f4f7;
+    border-radius: 5px;
+    box-shadow: 0px 3px #d5d6dc;
+}
+
+.card:hover{
+    /*float: left;*/
+    /*height: 209.25px;*/
+    display: flex;
+    align-content:flex-start;
+    flex-direction: row;
+    width: 46%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f3f4f7;
+    border-radius: 5px;
+    box-shadow: 0px 3px #aeaeae;
+}
+
+.close{
+    text-align: right;
+    width: 30%;
+    right: 50px;
+    font-size: 30px;
+    color: #dc7777;
+    visibility:hidden ;
+    cursor: pointer;
+
+}
+
+.card:hover .close{
+    visibility: visible;
+}
+
+.card .card-image img{
+    width: 100%;
+}
+
+.card div.card-image{
+    width: 30%;
+}
+
+.card div.card-detail{
+    width: 70%;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-around;*/
+}
+
+.card div.card-detail h1{
+    margin: 0px;
+    font-size: 30px;
+    font-family: 'Gaegu', cursive;
+}
+
+.card div.card-detail .stat{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
